@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import '../../common/containers/loading-spin/loading-spin';
-import '../../common/containers/side-bar/side-bar';
-import '../../common/containers/header-bar/header-bar';
-import '../../common/containers/player-bar/player-bar';
+import '../../music-player-common/containers/loading-spin/loading-spin';
+import '../../music-player-common/containers/side-bar/side-bar';
+import '../../music-player-common/containers/header-bar/header-bar';
+import '../../music-player-common/containers/player-bar/player-bar';
 import './style/main.scss';
 
 function SubAppViewport(props) {
