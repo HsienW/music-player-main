@@ -1,8 +1,8 @@
 import {registerMicroApps, start, setDefaultMountApp} from 'qiankun';
 import {iniSubAppConfig} from './init-sub-app-config';
 import {subAppInfo} from './config-sub-app-info';
-import {globalActiveListener} from '../../common/listener/global-active-listener';
-import {globalActiveMediator} from '../../common/mediator/global-active-mediator';
+import {globalActiveListener} from '../../music-player-common/listener/global-active-listener';
+import {globalActiveMediator} from '../../music-player-common/mediator/global-active-mediator';
 
 registerMicroApps(
     iniSubAppConfig(subAppInfo),
