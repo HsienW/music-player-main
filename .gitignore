@@ -8,6 +8,8 @@
 /dist
 /tmp
 /out-tsc
+/main
+/music-player-main
 
 # dependencies
 /node_modules
