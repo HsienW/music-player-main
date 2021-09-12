@@ -13,7 +13,7 @@
   "author": "Hsien W Wei",
   "license": "ISC",
   "dependencies": {
-    "music-player-common": "1.1.1",
+    "music-player-common": "1.1.2",
     "prop-types": "15.7.2",
     "qiankun": "2.4.2",
     "react": "16.13.1",
