@@ -16,8 +16,7 @@ module.exports = merge(baseWebpackConfig, {
     output: {
         library: `${packageName}-[name]_dll`,
         libraryTarget: 'umd',
-        jsonpFunction: `webpackJsonp_${packageName}`,
-        path: path.resolve(__dirname, 'main'),
+        jsonpFunction: `webpackJsonp_${packageName}`
     },
     module: {
         rules: [
