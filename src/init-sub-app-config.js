@@ -1,5 +1,5 @@
 import {globalState} from './global-state';
-import {observer, observerKey} from '../../music-player-common/observer';
+import {observer, observerKey} from 'music-player-common';
 import {configSubAppRender} from './config-sub-app-render';
 
 const loader = loading => configSubAppRender({loading});
