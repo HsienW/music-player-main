@@ -98,7 +98,7 @@ jobs:
         if: github.ref == 'refs/heads/production'
         uses: jakejarvis/s3-sync-action@master
         with:
-          args: --exclude '.git*/*' --delete --follow-symlinks
+          args: --exclude '.git*/*' --exclude 'sub-app/*' --delete --follow-symlinks
         env:
           SOURCE_DIR: './main'
           AWS_REGION: 'us-east-1'
